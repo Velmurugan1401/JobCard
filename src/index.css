@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: "regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #D8D8D8;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ErrorColor{
+  color: #D86161;
+}
+
+.IBordercolor{
+  border:1px solid #D86161;
+}
+
+
+.Deletebtn{
+  border: 1px solid #D86161;
+  color: #D86161;
+}
+
+.Editablebtn{
+  border: 1px solid #1597E4;
+  color: #1597E4;
+}
